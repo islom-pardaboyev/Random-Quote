@@ -1,12 +1,12 @@
-let quote = document.getElementById("quote");
-let author = document.getElementById("author");
-let getBtn = document.getElementById("btn");
-let copyBtn = document.getElementById("copyBtn");
-let modal = document.getElementById("modal");
+const quote = document.getElementById("quote");
+const author = document.getElementById("author");
+const getBtn = document.getElementById("btn");
+const copyBtn = document.getElementById("copyBtn");
+const modal = document.getElementById("modal");
 
 const url = "https://api.quotable.io/random";
 
-let getQuote = () => {
+const getQuote = () => {
   fetch(url)
     .then((data) => data.json())
     .then((item) => {
