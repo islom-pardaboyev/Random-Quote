@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./style.css">
     <!-- icons (font awesome) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
 </head>
 
 <body class="overflow-hidden">
@@ -25,8 +27,8 @@
 
     <div class="wrapper">
         <div class="container">
-            <p id="quote">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis blanditiis similique </p>
-            <h3 id="author">Lorem, ipsum.</h3>
+            <p id="quote" class="font-normal"></p>
+            <h3 id="author" class="font-bold"></h3>
             <div class="buttons">
                 <button id="btn">Get Quote</button>
                 <button id="copyBtn">Copy Quote</button>
@@ -35,8 +37,11 @@
     </div>
 
     <!-- footer -->
-    <footer class="absolute bottom-0 bg-[white] p-[10px] w-full text-center">
-        © 2024 - Made with <a target="_blank" href="https://t.me/IslomPardaboyev" class="underline">Islom Pardaboyev</a>🧠
+    <footer class="absolute group gap-4 bottom-0 bg-[white] p-[10px] w-full text-center">
+        <p> © 2024 - Made with <a target="_blank" href="https://t.me/IslomPardaboyev"
+                class="underline text-sky-500">Islom
+                Pardaboyev</a> 🧠</p>
+        <p class="uppercase absolute left-[62%] -bottom-6 transition-all duration-700 flex items-center gap-[10px] group-hover:bottom-[10px]"><i class="fa-solid fa-arrow-left"></i> click here for contact me!</p>
     </footer>
 
     <!-- js -->

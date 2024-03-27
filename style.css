@@ -36,7 +36,7 @@ body {
   }
 
   100% {
-    transform: translateY(-.4rem);
+    transform: translateY(-1.4rem);
   }
 }
 
