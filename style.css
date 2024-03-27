@@ -21,24 +21,6 @@ body {
   left: 50%;
 }
 
-.headingText {
-  animation: floatHeading 4s ease-in-out infinite;
-}
-
-/* Animation */
-@keyframes floatHeading {
-  0% {
-    transform: translateY(-.4rem);
-  }
-
-  50% {
-    transform: translateY(.4rem);
-  }
-
-  100% {
-    transform: translateY(-1.4rem);
-  }
-}
 
 .container {
   width: 100%;
